@@ -18,19 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+blog_header: Sumit Mendiratta
 title: Sumit Mendiratta - Official Website
 email: sumit@procol.in
 description: >- # this means to ignore newlines until "baseurl:"
-  Hey folks, I'm Sumit Mendiratta. I'm the CTO at Procol. I write about the future of procurement, tech and product management. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  Hey folks, I'm Sumit Mendiratta. I'm the CTO at Procol. I sometimes write about the product management, psychology, tech and the intersection of tech and procurement. 
+baseurl: "" 
+url: "https://sumitm.in" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sumitmendirata
-github_username:  
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

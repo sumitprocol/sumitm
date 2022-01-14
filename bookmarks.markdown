@@ -1,14 +1,15 @@
 ---
 layout: page
-title: Books
-permalink: /books/
-order: 1
+title: Bookmarks
+permalink: /bookmarks/
+order: 3
 ---
+
 
 {%- if site.posts.size > 0 -%}
     <ul class="post-list">
       {%- for post in site.posts -%}
-      {% if post.categories contains "books" %}
+      {% if post.categories contains "bookmarks" %}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
